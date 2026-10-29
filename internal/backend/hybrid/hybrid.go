@@ -7,10 +7,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/HelixThinker/tsastat/internal/backend/ebpf"
-	"github.com/HelixThinker/tsastat/internal/backend/proc"
-	"github.com/HelixThinker/tsastat/internal/backend/taskstats"
-	"github.com/HelixThinker/tsastat/internal/model"
+	"github.com/nilx6874/tsastat/internal/backend/ebpf"
+	"github.com/nilx6874/tsastat/internal/backend/proc"
+	"github.com/nilx6874/tsastat/internal/backend/taskstats"
+	"github.com/nilx6874/tsastat/internal/model"
 )
 
 const (

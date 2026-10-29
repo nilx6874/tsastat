@@ -9,11 +9,11 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/HelixThinker/tsastat/internal/backend"
-	"github.com/HelixThinker/tsastat/internal/collector"
-	"github.com/HelixThinker/tsastat/internal/doctor"
-	"github.com/HelixThinker/tsastat/internal/model"
-	"github.com/HelixThinker/tsastat/internal/output"
+	"github.com/nilx6874/tsastat/internal/backend"
+	"github.com/nilx6874/tsastat/internal/collector"
+	"github.com/nilx6874/tsastat/internal/doctor"
+	"github.com/nilx6874/tsastat/internal/model"
+	"github.com/nilx6874/tsastat/internal/output"
 )
 
 func Run(args []string, stdout, stderr io.Writer) int {
