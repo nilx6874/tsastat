@@ -1,13 +1,13 @@
 # tsastat
 
-[![CI](https://github.com/HelixThinker/tsastat/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/HelixThinker/tsastat/actions/workflows/ci.yml)
-[![Release](https://img.shields.io/github/v/release/HelixThinker/tsastat)](https://github.com/HelixThinker/tsastat/releases)
-[![Go version](https://img.shields.io/github/go-mod/go-version/HelixThinker/tsastat)](https://go.dev/)
-[![License](https://img.shields.io/github/license/HelixThinker/tsastat)](LICENSE)
+[![CI](https://github.com/nilx6874/tsastat/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/nilx6874/tsastat/actions/workflows/ci.yml)
+[![Release](https://img.shields.io/github/v/release/nilx6874/tsastat)](https://github.com/nilx6874/tsastat/releases)
+[![Go version](https://img.shields.io/github/go-mod/go-version/nilx6874/tsastat)](https://go.dev/)
+[![License](https://img.shields.io/github/license/nilx6874/tsastat)](LICENSE)
 [![Platform](https://img.shields.io/badge/platform-Linux-blue)](#requirements)
 
-[Project website](https://helixthinker.github.io/tsastat/) ·
-[Interactive JSONL report viewer](https://helixthinker.github.io/tsastat/#viewer)
+[Project website](https://nilx6874.github.io/tsastat/) ·
+[Interactive JSONL report viewer](https://nilx6874.github.io/tsastat/#viewer)
 
 `tsastat` is a lightweight Linux CLI for per-thread scheduler and delay
 analysis. Its default `auto` backend combines an event-timed eBPF scheduler
@@ -94,11 +94,11 @@ headers are not required at runtime.
 ## Installation
 
 Download a prebuilt archive from the
-[latest release](https://github.com/HelixThinker/tsastat/releases/latest) when
+[latest release](https://github.com/nilx6874/tsastat/releases/latest) when
 available, or build the CLI with Go:
 
 ```bash
-git clone https://github.com/HelixThinker/tsastat.git
+git clone https://github.com/nilx6874/tsastat.git
 cd tsastat
 go build -o tsastat ./cmd/tsastat
 ```

@@ -1,4 +1,4 @@
-module github.com/HelixThinker/tsastat
+module github.com/nilx6874/tsastat
 
 go 1.22
 

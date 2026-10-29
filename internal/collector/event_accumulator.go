@@ -4,7 +4,7 @@ import (
 	"sort"
 	"time"
 
-	"github.com/HelixThinker/tsastat/internal/model"
+	"github.com/nilx6874/tsastat/internal/model"
 )
 
 const ebpfSamplingMethod = "ebpf_sched_events"

@@ -7,7 +7,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/HelixThinker/tsastat/internal/model"
+	"github.com/nilx6874/tsastat/internal/model"
 )
 
 func New() (*Backend, error) {

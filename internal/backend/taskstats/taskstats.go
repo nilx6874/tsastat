@@ -10,8 +10,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/HelixThinker/tsastat/internal/model"
-	"github.com/HelixThinker/tsastat/internal/procfs"
+	"github.com/nilx6874/tsastat/internal/model"
+	"github.com/nilx6874/tsastat/internal/procfs"
 )
 
 const samplingMethod = "taskstats_counters_procfs_midpoint"
